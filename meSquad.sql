@@ -1,0 +1,8 @@
+CREATE TABLE squad (
+  id_squad INT PRIMARY KEY AUTO_INCREMENT,
+  nama VARCHAR(50) NOT NULL,
+  nim VARCHAR(12) NOT NULL,
+  username VARCHAR(20) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  nomor_hp VARCHAR(15)
+);
